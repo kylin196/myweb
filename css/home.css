@@ -1,0 +1,22 @@
+
+/* 公共 */
+.content-li>h3 {
+  display: flex;
+  align-items: center;
+  color: var(--headerFont);
+}
+
+.content-li .borderbotm {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+    /* 手机*/
+    @media screen and (max-width: 550px) {
+      .content-li{
+        display: block;
+      }
+    }
